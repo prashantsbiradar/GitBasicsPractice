@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class LaunchingBrowsers {
+	//TestNG test method
 	@Test
 	public void launchBrowsers(){
 		System.setProperty("webdriver.chrome.driver", "G:\\chromedriver.exe");
